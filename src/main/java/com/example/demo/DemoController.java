@@ -11,6 +11,8 @@ public class DemoController {
 	@ResponseBody
 	public String index() {
 		return "<h1>Hello! Spring Boot!!</h1>"
-				+ "<button>push!!</button>";
+				+ "<a href='https://github.com/tatsuya828828'><button>github</button></a>"
+				+ "<br>"
+				+ "<a href='https://o-space.jp'><button>Our Space</button></a>";
 	}
 }
